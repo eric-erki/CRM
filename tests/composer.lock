@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "93c7dbca9bb62dd62680cce0a6a9f340",
@@ -568,6 +568,7 @@
             ],
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
             "homepage": "https://github.com/container-interop/container-interop",
+            "abandoned": "psr/container",
             "time": "2017-02-14T19:40:03+00:00"
         },
         {
@@ -1627,25 +1628,25 @@
         },
         {
             "name": "symfony/dependency-injection",
-            "version": "v3.4.3",
+            "version": "v4.0.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "35f957ca171a431710966bec6e2f8636d3b019c4"
+                "reference": "36401d55d9be1fddd4e8be983b2a7e0b9a5f29ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/35f957ca171a431710966bec6e2f8636d3b019c4",
-                "reference": "35f957ca171a431710966bec6e2f8636d3b019c4",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/36401d55d9be1fddd4e8be983b2a7e0b9a5f29ac",
+                "reference": "36401d55d9be1fddd4e8be983b2a7e0b9a5f29ac",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.5.9|>=7.0.8",
+                "php": "^7.1.3",
                 "psr/container": "^1.0"
             },
             "conflict": {
-                "symfony/config": "<3.3.7",
-                "symfony/finder": "<3.3",
+                "symfony/config": "<3.4",
+                "symfony/finder": "<3.4",
                 "symfony/proxy-manager-bridge": "<3.4",
                 "symfony/yaml": "<3.4"
             },
@@ -1653,8 +1654,8 @@
                 "psr/container-implementation": "1.0"
             },
             "require-dev": {
-                "symfony/config": "~3.3|~4.0",
-                "symfony/expression-language": "~2.8|~3.0|~4.0",
+                "symfony/config": "~3.4|~4.0",
+                "symfony/expression-language": "~3.4|~4.0",
                 "symfony/yaml": "~3.4|~4.0"
             },
             "suggest": {
@@ -1667,7 +1668,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.4-dev"
+                    "dev-master": "4.0-dev"
                 }
             },
             "autoload": {
@@ -1694,7 +1695,7 @@
             ],
             "description": "Symfony DependencyInjection Component",
             "homepage": "https://symfony.com",
-            "time": "2018-01-04T15:56:45+00:00"
+            "time": "2018-08-01T08:23:45+00:00"
         },
         {
             "name": "symfony/dom-crawler",
